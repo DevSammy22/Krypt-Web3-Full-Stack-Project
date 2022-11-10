@@ -1,8 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.17;
+import "hardhat/console.sol";
 
-//Mora
-//idyt
 contract Transactions {
     uint256 transactionCount;
     event Transfer(
