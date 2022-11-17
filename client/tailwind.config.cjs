@@ -1,7 +1,13 @@
 module.exports = {
-  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
-  mode: "jit",
-  darkMode: false, // or 'media' or 'class'
+  //content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  // content: [
+  //   // Example content paths...
+  //   "./public/**/*.html",
+  //   "./src/**/*.{js,jsx,ts,tsx,vue}",
+  // ],
+  content: ["./public/**/*.{js,ts,jsx,tsx}", "./src/**/*.{js,ts,jsx,tsx}"],
+  //mode: "jit",
+  // darkMode: "class", // or 'media' or 'class'
 
   theme: {
     fontFamily: {
